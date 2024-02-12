@@ -1,0 +1,82 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding:0%;
+    margin: 0%;
+}
+
+
+body {
+    background: linear-gradient(320deg, #b8b8b8, #636363);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+
+.container {
+    width: 60vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(5px);
+    border-radius: 1rem;
+    box-shadow: 1rem 1rem 1rem rgb(117, 117, 117);
+    padding: 2rem;
+    min-height: 35rem;
+    max-height: 35rem;
+    min-width: 20rem;
+    max-width: 30rem;
+}
+
+
+.display {
+    background-color: rgba(255, 255, 255, .3);
+    height: 5rem;
+    font-size: 4rem;
+    padding-right: 1rem;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: .7rem;
+}
+
+.calc_buttons {
+    background-color: #80808063;
+    margin: 2rem 0;
+    padding: .5rem ;
+    border-radius: .7rem;
+    height: 80%;
+}
+
+.buttons_row, .buttons_row_init {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons_row_init > .btn, .btn:last-child {
+    background-color: #868686;
+}
+
+.btn {
+    flex-basis: 20%;
+    padding: .3rem;
+    margin: .55rem;
+    background-color: rgba(255, 255, 255, 0.555);
+    font-size: 2.6rem;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 .1rem .2rem rgb(73, 73, 73);
+}
+
+.duble {
+    flex-basis: 46%;
+}

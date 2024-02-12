@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALC</title>
+
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <div class="container">
+
+        <section class="display">
+            0
+        </section>
+
+        <section class="calc_buttons">
+
+            <div class="buttons_row_init">
+
+                <button class="btn C" onclick="calc('C')">
+                    C
+                </button>
+
+                <button class="btn erase" onclick="calc('er')">
+                    &larr;
+                </button>
+
+                <button class="btn percent" onclick="calc('%')">
+                    &percnt;
+                </button>
+
+                <button class="btn division" onclick="calc('/')">
+                    &divide;
+                </button>
+
+            </div>
+
+
+            <div class="buttons_row">
+
+                <button class="btn" onclick="buttonClick(7)">
+                    7
+                </button>
+
+                <button class="btn" onclick="buttonClick(8)">
+                    8
+                </button>
+
+                <button class="btn" onclick="buttonClick(9)">
+                    9
+                </button>
+
+                <button class="btn times" onclick="calc('*')">
+                    &times;
+                </button>
+
+            </div>
+
+            <div class="buttons_row">
+
+                <button class="btn" onclick="buttonClick(4)">
+                    4
+                </button>
+
+                <button class="btn" onclick="buttonClick(5)">
+                    5
+                </button>
+
+                <button class="btn" onclick="buttonClick(6)">
+                    6
+                </button>
+
+                <button class="btn minus" onclick="calc('-')">
+                    &minus;
+                </button>
+
+            </div>
+
+            <div class="buttons_row">
+
+                <button class="btn"onclick="buttonClick(1)">
+                    1
+                </button>
+
+                <button class="btn"onclick="buttonClick(2)">
+                    2
+                </button>
+
+                <button class="btn"onclick="buttonClick(3)">
+                    3
+                </button>
+
+                <button class="btn plus" onclick="calc('+')">
+                    &plus;
+                </button>
+
+            </div>
+
+            <div class="buttons_row">
+
+                <button class="btn duble" onclick="buttonClick(0)">
+                    0
+                </button>
+
+                <button class="btn dot" onclick="calc(',')">
+                    ,
+                </button>
+
+                <button class="btn equals" onclick="calc('=')">
+                    &equals;
+                </button>
+
+            </div>
+
+
+        </section>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
